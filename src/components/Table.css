@@ -1,0 +1,84 @@
+input {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 30%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.myTable {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    float: left;
+}
+
+.myTable th, .myTable td {
+    text-align: left;
+    padding: 5px;
+}
+
+.myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.myTable tr.header, .myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.upper {
+    width: 20px;
+    height: 10px;
+    background-image: url("../sprite.png");
+    background-repeat: no-repeat;
+    background-position: 49% 55%;
+}
+
+.down {
+    width: 20px;
+    height: 10px;
+    background-image: url("../sprite.png");
+    background-repeat: no-repeat;
+    background-position: 49% 65%;
+}
+
+.image {
+    width: 300px;
+    margin: 0 auto;
+}
+
+a {
+    margin-left: 5px;
+}
+
+.links {
+    clear: both;
+}
+
+.loader {
+    height: 12em;
+    margin: -6em 0 0 -6em;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 12em;
+    z-index: 9999;
+}
+
+.loader svg {
+    height: 12em;
+    width: 12em;
+}
+
+.loader svg path {
+    stroke-width: 0;
+}
+
+.loader svg path {
+    fill: #44cbf8;
+    stroke: none;
+}

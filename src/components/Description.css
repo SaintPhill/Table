@@ -1,0 +1,10 @@
+.position {
+     float: left;
+     width: 300px;
+ }
+
+.area {
+    height: 100px;
+    width: 250px;
+    overflow: hidden;
+}
